@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 626.675 480.6" width="626.675" height="480.6" style="--bg:#ffffff;--fg:#1d1d1f;--line:#d2d2d7;--accent:#0071e3;--muted:#86868b;--surface:#f5f5f7;--border:#d2d2d7;background:var(--bg)">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 30%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="4.8" refX="8" refY="2.4" orient="auto">
+    <polygon points="0 0, 8 2.4, 0 4.8" fill="var(--_arrow)" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="4.8" refX="0" refY="2.4" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.4, 8 4.8" fill="var(--_arrow)" />
+  </marker>
+</defs>
+<rect x="145" y="40" width="180.77499999999998" height="400.6" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+<rect x="145" y="40" width="180.77499999999998" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+<text x="157" y="54" dy="0.35em" font-size="12" font-weight="600" fill="var(--_text-sec)"> 核心处理 </text>
+<polyline points="105,258.3 237.175,258.3 237.175,106" fill="none" stroke="var(--_line)" stroke-width="0.75" marker-end="url(#arrowhead)" />
+<polyline points="194.875,405.1 345.775,405.1 345.775,238.3 365.775,238.3" fill="none" stroke="var(--_line)" stroke-width="0.75" marker-end="url(#arrowhead)" />
+<polyline points="456.67499999999995,238.3 498.6649446075122,238.3 498.6649446075122,245.0661368023115" fill="none" stroke="var(--_line)" stroke-width="0.75" marker-end="url(#arrowhead)" />
+<polyline points="279.475,323.6 345.775,323.6 345.775,278.3 498.6649446075122,278.3 498.6649446075122,271.53386319768856" fill="none" stroke="var(--_line)" stroke-width="0.75" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<polyline points="237.175,124 237.175,164" fill="none" stroke="var(--_line)" stroke-width="0.75" marker-end="url(#arrowhead)" />
+<polyline points="221.35457559681697,232.77957559681698 221.35457559681697,277.1 194.875,277.1 194.875,305.6" fill="none" stroke="var(--_line)" stroke-width="0.75" marker-end="url(#arrowhead)" />
+<polyline points="252.99542440318302,232.77957559681698 252.99542440318302,277.1 279.475,277.1 279.475,305.6" fill="none" stroke="var(--_line)" stroke-width="0.75" marker-end="url(#arrowhead)" />
+<polyline points="194.875,341.6 194.875,381.6" fill="none" stroke="var(--_line)" stroke-width="0.75" marker-end="url(#arrowhead)" />
+<rect x="181.155" y="263.6" width="27.44" height="27" rx="4" ry="4" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="0.5" />
+<text x="194.875" y="277.1" text-anchor="middle" dy="0.35em" font-size="11" font-weight="400" fill="var(--_text-muted)">正常</text>
+<rect x="265.755" y="263.6" width="27.44" height="27" rx="4" ry="4" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="0.5" />
+<text x="279.475" y="277.1" text-anchor="middle" dy="0.35em" font-size="11" font-weight="400" fill="var(--_text-muted)">异常</text>
+<circle cx="72.5" cy="258.3" r="32.5" fill="var(--accent)" stroke="var(--accent)" stroke-width="2px" />
+<polygon points="374.775,220.3 447.67499999999995,220.3 456.67499999999995,238.3 447.67499999999995,256.3 374.775,256.3 365.775,238.3" fill="var(--bg)" stroke="var(--line)" stroke-width="0.75" />
+<circle cx="541.675" cy="258.3" r="45" fill="var(--accent)" stroke="var(--accent)" stroke-width="2px" />
+<circle cx="541.675" cy="258.3" r="40" fill="var(--accent)" stroke="var(--accent)" stroke-width="2px" />
+<rect x="203.3" y="88" width="67.75" height="36" rx="0" ry="0" fill="var(--surface)" stroke="var(--border)" stroke-width="0.75" />
+<polygon points="237.175,164 279.475,206.3 237.175,248.60000000000002 194.875,206.3" fill="var(--bg)" stroke="var(--line)" stroke-width="0.75" />
+<rect x="164.575" y="305.6" width="60.6" height="36" rx="0" ry="0" fill="var(--surface)" stroke="var(--border)" stroke-width="0.75" />
+<rect x="249.175" y="305.6" width="60.6" height="36" rx="0" ry="0" fill="var(--bg)" stroke="var(--line)" stroke-width="0.75" />
+<rect x="161" y="388.6" width="67.75" height="33" fill="var(--surface)" stroke="none" />
+<line x1="161" y1="388.6" x2="161" y2="421.6" stroke="var(--border)" stroke-width="0.75" />
+<line x1="228.75" y1="388.6" x2="228.75" y2="421.6" stroke="var(--border)" stroke-width="0.75" />
+<ellipse cx="194.875" cy="421.6" rx="33.875" ry="7" fill="var(--surface)" stroke="var(--border)" stroke-width="0.75" />
+<ellipse cx="194.875" cy="388.6" rx="33.875" ry="7" fill="var(--surface)" stroke="var(--border)" stroke-width="0.75" />
+<text x="72.5" y="258.3" text-anchor="middle" dy="0.35em" font-size="13" font-weight="500" fill="#fff">开始</text>
+<text x="411.22499999999997" y="238.3" text-anchor="middle" dy="0.35em" font-size="13" font-weight="500" fill="var(--fg)">调用外部接口</text>
+<text x="541.675" y="258.3" text-anchor="middle" dy="0.35em" font-size="13" font-weight="500" fill="#fff">流程结束</text>
+<text x="237.175" y="106" text-anchor="middle" dy="0.35em" font-size="13" font-weight="500" fill="var(--fg)">初始化系统</text>
+<text x="237.175" y="206.3" text-anchor="middle" dy="0.35em" font-size="13" font-weight="500" fill="var(--fg)">检查状态</text>
+<text x="194.875" y="323.6" text-anchor="middle" dy="0.35em" font-size="13" font-weight="500" fill="var(--fg)">数据处理</text>
+<text x="279.475" y="323.6" text-anchor="middle" dy="0.35em" font-size="13" font-weight="500" fill="var(--fg)">记录日志</text>
+<text x="194.875" y="405.1" text-anchor="middle" dy="0.35em" font-size="13" font-weight="500" fill="var(--fg)">持久化存储</text>
+</svg>
